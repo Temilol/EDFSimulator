@@ -5,8 +5,17 @@ You can read more about the [EDF Scheduling Algorithm](https://en.wikipedia.org/
 
 The Application is a Terminal-based User Interface and it is an Interactive Program.
 
+If **TWO Jobs** are tied, the FIFO Algorithm will be used to decide which to choose.
+
+### Input Template Structure
+```
+Two Jobs were Inputed
+Job A has an Arrival Time of 2, Execution time of 3 and a Deadline time of 4
+Job B has an Arrival Time of 1, Execution time of 2 and a Deadline time of 5
+```
+
 ### Output Template Structure
-After the Jobs have been scheduled, The application produce a report as an output. A Template is shown below:
+After the Jobs have been scheduled, The application produce a timeline report as an output explaining what happens at each step. A Template is shown below:
 
 ```						
 				REPORT TEMPLATE
